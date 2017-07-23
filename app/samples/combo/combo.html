@@ -1,0 +1,37 @@
+<h2>igCombo</h2>
+<h4>This sample demonstrates how to use AngularJS directives to create igCombos.</h4>
+
+<div class="combo-sample">
+    <div>
+        <input id="product-id" type="text" ng-model="combo.value1" />
+        <div>values: 1 - 20</div>
+    </div>
+    <div class="combo-wrapper">
+        <ig-combo id="combo1"
+                  data-source="northwind"
+                  value-key-type="number"
+                  value-key="ProductID"
+                  text-key-type="string"
+                  text-key="ProductName"
+                  width="300px"
+                  ng-model="combo.value1">
+        </ig-combo>
+    </div>
+    <div class="combo-wrapper">
+        <ig-combo id="combo2"
+                  data-source="northwind"
+                  value-key-type="number"
+                  value-key="ProductID"
+                  text-key-type="string"
+                  text-key="ProductName"
+                  width="300px"
+                  ng-model="combo.value1">
+        </ig-combo>
+    </div>
+    <div class="clearfix">
+        <h3>Edit Product Name</h3>
+        <div class="product-name-wrapper" ng-repeat="record in northwind">
+            <input class="product-name" ng-model="record.ProductName">
+        </div>
+    </div>
+</div>

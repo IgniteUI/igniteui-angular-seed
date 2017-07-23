@@ -1,0 +1,51 @@
+<h2>Editors</h2>
+<h4>This sample demonstrates how create a number of different editors using AngularJS directives.</h4>
+
+<div id="editors-sample">
+    <table>
+        <thead>
+            <tr>
+                <th>Control Name</th>
+                <th>HTML Element</th>
+                <th>Ignite UI Control</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>igCurrencyEditor</td>
+                <td class="valign-top"><input class="regular-input" type="number" step="0.1" ng-model="editors.currency" /></td>
+                <td><ig-currency-editor ng-model="editors.currency"></ig-currency-editor></td>
+            </tr>
+            <tr>
+                <td>igDateEditor</td>
+                <td class="valign-top"><input class="regular-input" type="text" ng-model="editors.date" /></td>
+                <td><ig-date-editor ng-model="editors.date"></ig-date-editor></td>
+            </tr>
+            <tr>
+                <td>igMaskEditor</td>
+                <td class="valign-top"><input class="regular-input" type="text" ng-model="editors.mask" /></td>
+                <td><ig-mask-editor ng-model="editors.mask" input-mask="999-999-999"></ig-mask-editor></td>
+            </tr>
+            <tr>
+                <td>igNumericEditor</td>
+                <td class="valign-top"><input class="regular-input" type="number" step="0.1" ng-model="editors.currency" /></td>
+                <td><ig-numeric-editor ng-model="editors.currency" button="spin"></ig-numeric-editor></td>
+            </tr>
+            <tr>
+                <td>igPercentEditor</td>
+                <td class="valign-top"><input class="regular-input" type="number" step="0.01" ng-model="editors.percent" /></td>
+                <td><ig-percent-editor ng-model="editors.percent"></ig-percent-editor></td>
+            </tr>
+            <tr>
+                <td>igTextEditor</td>
+                <td class="valign-top"><input class="regular-input" type="text" id="editor11" ng-model="editors.text" /></td>
+                <td><ig-text-editor id="editor1" ng-model="editors.text"></ig-text-editor></td>
+            </tr>
+            <tr>
+                <td>igDatePicker</td>
+                <td class="valign-top"><input class="regular-input" type="text" id="datePicker11" ng-model="editors.date" /></td>
+                <td><ig-date-picker id="datePicker1" ng-model="editors.date"></ig-date-picker></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

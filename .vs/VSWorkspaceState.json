@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\components",
+    "\\app\\components\\version",
+    "\\app\\data",
+    "\\app\\samples",
+    "\\app\\samples\\chart",
+    "\\app\\samples\\combo",
+    "\\app\\samples\\editors",
+    "\\app\\samples\\grid-controller-init",
+    "\\app\\samples\\grid-markup-init"
+  ],
+  "SelectedNode": "\\app\\data\\northwind.js",
+  "PreviewInSolutionExplorer": false
+}

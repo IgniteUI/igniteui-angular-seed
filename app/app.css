@@ -1,0 +1,112 @@
+/* app css stylesheet */
+
+.container {
+    margin: 15px;
+}
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+    .menu:before {
+        content: "[";
+    }
+
+    .menu:after {
+        content: "]";
+    }
+
+    .menu > li {
+        display: inline;
+    }
+
+        .menu > li + li:before {
+            content: "|";
+            padding-right: 0.3em;
+        }
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* combo sample */
+
+.combo-sample #product-id {
+    width: 300px;
+}
+
+.combo-sample .combo-wrapper {
+    margin-top: 20px;
+}
+
+.combo-sample .product-name {
+    margin: 0 15px 15px 0;
+    height: 25px;
+}
+
+.combo-sample .product-name-wrapper {
+    float: left;
+}
+
+/* combo sample */
+
+/* editors sample */
+#editors-sample .ui-state-hover {
+    color: #444
+}
+
+#editors-sample table {
+    border-spacing: 15px;
+    border-collapse: separate;
+}
+
+.valign-top {
+    vertical-align: top;
+}
+
+.regular-input {
+    height: 25px;
+}
+/* editors sample */
+
+/* grid samples */
+#grid-description {
+    margin-bottom: 0px;
+}
+
+#grid-sample #grid-container,
+#grid-sample #add-product,
+#grid-sample #datasource {
+    float: left;
+    margin: 25px;
+}
+
+#grid-sample #grid-container {
+    margin-left: 0px;
+}
+
+#grid-sample #add-product {
+    padding: 10px;
+    border: 1px solid #dadada;
+}
+
+#grid-sample #datasource {
+    padding: 10px;
+    border: 1px solid #dadada;
+}
+
+    #grid-sample #datasource table {
+        border-spacing: 15px;
+        border-collapse: separate;
+    }
+
+#grid-sample #add-product .add-product-input {
+    margin-bottom: 10px;
+}
+
+/* grid samples */

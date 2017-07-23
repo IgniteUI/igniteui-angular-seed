@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Ignite UI AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+
+    <link type="text/css" rel="stylesheet" href="http://cdn-na.infragistics.com/igniteui/latest/css/themes/infragistics/infragistics.theme.css" />
+    <link type="text/css" rel="stylesheet" href="http://cdn-na.infragistics.com/igniteui/latest/css/structure/infragistics.css" />
+
+    <link rel="stylesheet" href="app.css">
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ul class="menu">
+            <li><a href="#!/grid-markup-init">Grid 1</a></li>
+            <li><a href="#!/grid-controller-init">Grid 2</a></li>
+            <li><a href="#!/chart">Chart</a></li>
+            <li><a href="#!/combo">Combo</a></li>
+            <li><a href="#!/editors">Editors</a></li>
+        </ul>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div ng-view></div>
+
+        <div>Angular seed app: v<span app-version></span></div>
+    </div>
+
+    <!-- jQuery and jQuery UI references -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+    <!-- Ignite UI controls -->
+    <script src="http://cdn-na.infragistics.com/igniteui/latest/js/infragistics.core.js"></script>
+    <script src="http://cdn-na.infragistics.com/igniteui/latest/js/infragistics.lob.js"></script>
+    <script src="http://cdn-na.infragistics.com/igniteui/2017.1/latest/js/infragistics.dv.js"></script>
+
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+    -->
+    <script src="bower_components/angular/angular.js"></script>
+
+    <!-- Ignite UI controls AngularJS directives -->
+    <script src="bower_components/igniteui-angular/src/igniteui-angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+
+    <script src="samples/grid-markup-init/grid-markup-init.js"></script>
+    <script src="samples/grid-controller-init/grid-controller-init.js"></script>
+    <script src="samples/chart/chart.js"></script>
+    <script src="samples/combo/combo.js"></script>
+    <script src="samples/editors/editors.js"></script>
+
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+
+    <script src="data/population.js"></script>
+    <script src="data/northwind.js"></script>
+</body>
+</html>
