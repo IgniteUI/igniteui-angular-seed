@@ -26,7 +26,7 @@ module.exports = function (config) {
             'bower_components/angular-route/angular-route.js',
             'bower_components/angular-mocks/angular-mocks.js',
 
-            'bower_components/igniteui-angular/src/igniteui-angular.js',
+            'bower_components/igniteui-angularjs/src/igniteui-angularjs.js',
             'app.js',
             'data/*.js',
             'components/**/*.js',
