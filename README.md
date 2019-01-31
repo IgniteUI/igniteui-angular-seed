@@ -248,7 +248,7 @@ You will need to enable the integration between Travis and GitHub. See the
 For more information on AngularJS please check out [angularjs.org][angularjs].
 
 [ignite-ui-angularjs-directives-help]: https://www.igniteui.com/help/angularjs-directives
-[ignite-ui-angularjs]: https://github.com/IgniteUI/igniteui-angular
+[ignite-ui-angularjs]: https://github.com/IgniteUI/igniteui-angularjs
 [angularjs]: https://angularjs.org/
 [bower]: http://bower.io/
 [git]: https://git-scm.com/
